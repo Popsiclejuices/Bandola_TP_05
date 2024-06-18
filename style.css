@@ -250,15 +250,10 @@
   .icon {
     cursor: pointer;
     height: 2rem;
-  }
-
-  .icon-img {
-    cursor: pointer;
-    height: 2rem;
     transition: all.5s ease;
   }
 
-  .icon-img:hover {
+  .icon:hover {
     transform: scale(1.1) translateY(-6px);
   }
 
