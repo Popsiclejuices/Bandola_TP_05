@@ -59,13 +59,13 @@
     font-size: 1.5rem;
   }
 
-  a {
+  .nav-links a {
     color: rgb(12, 12, 12);
     text-decoration: none;
     text-decoration-color: white;
   }
 
-  a:hover {
+  .nav-links a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -75,10 +75,12 @@
 
   .logo {
     font-size: 2rem;
+    transition: all.5s ease;
   }
 
   .logo:hover {
     cursor: none;
+    transform: scale(1.1) translateY(-6px);
   }
 
   #hamburger-nav {
@@ -182,6 +184,10 @@
     width: auto;
     height: auto;
     border-radius: 500px;
+    transition: all.5s ease;
+  }
+  .profile-pic:hover {
+    transform: scale(1.1) translateY(-6px);
   }
 
   #profile {
@@ -226,6 +232,10 @@
   .title {
     font-size: 3rem;
     text-align: center;
+    transition: all.5s ease;
+  }
+  .title:hover {
+    transform: scale(1.1) translateY(-6px);
   }
 
   #social-container {
@@ -240,6 +250,16 @@
   .icon {
     cursor: pointer;
     height: 2rem;
+  }
+
+  .icon-img {
+    cursor: pointer;
+    height: 2rem;
+    transition: all.5s ease;
+  }
+
+  .icon-img:hover {
+    transform: scale(1.1) translateY(-6px);
   }
 
   /* buttonns */
@@ -263,16 +283,22 @@
   .btn-color-1, 
   .btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
+    transition: all.5s ease;
   }
 
   .btn-color-1, 
   .btn-color-2:hover {
     background: rgb(53, 53, 53);
     color: white;
+    
   }
 
+  .btn-color-2:hover{
+    transform: scale(1.1) translateY(-6px);
+  }
   .btn-color-1:hover {
     background: rgb(0, 0, 0);
+    transform: scale(1.1) translateY(-6px);
   }
 
   .btn-color-2 {
@@ -314,6 +340,10 @@
     border-radius: 2rem;
     width: auto;
     height: auto;
+    transition: all.5s ease;
+  }
+  .about-pic:hover {
+    transform: scale(1.1) translateY(-6px);
   }
   
   .arrow {
@@ -330,6 +360,11 @@
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    transition: all.5s ease;
+  }
+
+  .details-container:hover {
+    transform: scale(1.1) translateY(-6px);
   }
 
   .section-container {
